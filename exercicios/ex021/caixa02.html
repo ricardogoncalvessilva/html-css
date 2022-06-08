@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav {
+            background-color: rgb(102,102, 102);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.384);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.151);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho do site-->
+        <h1>Meu site</h1>
+        <nav>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
+        </nav>
+    </header>
+
+    <main> <!--Conteúdo principal do site-->
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga inventore placeat modi et non earum nemo incidunt nulla sapiente iste eius facere exercitationem omnis at aut, similique rerum tempore cumque?</p>
+                <aside>
+                    <p>Artigo escrito por fulano de tal</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer><!--Rodapé do site-->
+        <p>Desenvolvido por K21-Marketing</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
